@@ -1,0 +1,7 @@
+C:\Projects\Programacion I\Ejercicios\Prrueba\Prrueba\bin\Debug\Prrueba.exe.config
+C:\Projects\Programacion I\Ejercicios\Prrueba\Prrueba\bin\Debug\Prrueba.exe
+C:\Projects\Programacion I\Ejercicios\Prrueba\Prrueba\bin\Debug\Prrueba.pdb
+C:\Projects\Programacion I\Ejercicios\Prrueba\Prrueba\obj\Debug\Prrueba.csproj.AssemblyReference.cache
+C:\Projects\Programacion I\Ejercicios\Prrueba\Prrueba\obj\Debug\Prrueba.csproj.CoreCompileInputs.cache
+C:\Projects\Programacion I\Ejercicios\Prrueba\Prrueba\obj\Debug\Prrueba.exe
+C:\Projects\Programacion I\Ejercicios\Prrueba\Prrueba\obj\Debug\Prrueba.pdb

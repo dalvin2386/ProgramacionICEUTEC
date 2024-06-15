@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4A023340-AE1B-4A5D-90D7-F416FDB964B7}</ProjectGuid>
+    <ProjectGuid>{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ProyectoSimuladorCajero</RootNamespace>
     <AssemblyName>ProyectoSimuladorCajero</AssemblyName>
@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelos\Cuenta.cs" />
+    <Compile Include="Modelos\CuentaBasica.cs" />
+    <Compile Include="Modelos\CuentaPremium.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

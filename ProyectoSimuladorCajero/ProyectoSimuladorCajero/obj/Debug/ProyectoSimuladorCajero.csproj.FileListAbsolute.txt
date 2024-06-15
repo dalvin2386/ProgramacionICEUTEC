@@ -1,0 +1,7 @@
+C:\Projects\Programacion I\ProyectoSimuladorCajero\ProyectoSimuladorCajero\bin\Debug\ProyectoSimuladorCajero.exe.config
+C:\Projects\Programacion I\ProyectoSimuladorCajero\ProyectoSimuladorCajero\bin\Debug\ProyectoSimuladorCajero.exe
+C:\Projects\Programacion I\ProyectoSimuladorCajero\ProyectoSimuladorCajero\bin\Debug\ProyectoSimuladorCajero.pdb
+C:\Projects\Programacion I\ProyectoSimuladorCajero\ProyectoSimuladorCajero\obj\Debug\ProyectoSimuladorCajero.csproj.AssemblyReference.cache
+C:\Projects\Programacion I\ProyectoSimuladorCajero\ProyectoSimuladorCajero\obj\Debug\ProyectoSimuladorCajero.csproj.CoreCompileInputs.cache
+C:\Projects\Programacion I\ProyectoSimuladorCajero\ProyectoSimuladorCajero\obj\Debug\ProyectoSimuladorCajero.exe
+C:\Projects\Programacion I\ProyectoSimuladorCajero\ProyectoSimuladorCajero\obj\Debug\ProyectoSimuladorCajero.pdb

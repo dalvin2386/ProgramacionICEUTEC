@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|c:\\projects\\programacion i\\proyectosimuladorcajero\\proyectosimuladorcajero\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\proyectosimuladorcajero\\modelos\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\modelos\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|c:\\projects\\programacion i\\proyectosimuladorcajero\\proyectosimuladorcajero\\modelos\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\modelos\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\proyectosimuladorcajero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|c:\\projects\\programacion i\\proyectosimuladorcajero\\proyectosimuladorcajero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\proyectosimuladorcajero\\modelos\\usuarioadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:proyectosimuladorcajero\\modelos\\usuarioadministrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\proyectosimuladorcajero\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\modelos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\proyectosimuladorcajero\\modelos\\cuentapremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\modelos\\cuentapremium.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\proyectosimuladorcajero\\modelos\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\modelos\\cuentabasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\proyectosimuladorcajero\\modelos\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC05E2F-10C0-40AB-A7D2-BFC5F5EC221A}|ProyectoSimuladorCajero\\ProyectoSimuladorCajero.csproj|solutionrelative:proyectosimuladorcajero\\modelos\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\Usuario.cs",
               "RelativeDocumentMoniker": "ProyectoSimuladorCajero\\Modelos\\Usuario.cs",
               "ToolTip": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\Usuario.cs",
               "RelativeToolTip": "ProyectoSimuladorCajero\\Modelos\\Usuario.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAuwCEAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAwwBIAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T00:14:33.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "UsuarioAdministrador.cs",
+              "DocumentMoniker": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\UsuarioAdministrador.cs",
+              "RelativeDocumentMoniker": "ProyectoSimuladorCajero\\Modelos\\UsuarioAdministrador.cs",
+              "ToolTip": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\UsuarioAdministrador.cs",
+              "RelativeToolTip": "ProyectoSimuladorCajero\\Modelos\\UsuarioAdministrador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T01:34:55.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CuentaPremium.cs",
               "DocumentMoniker": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\CuentaPremium.cs",
               "RelativeDocumentMoniker": "ProyectoSimuladorCajero\\Modelos\\CuentaPremium.cs",
@@ -55,43 +72,44 @@
               "RelativeToolTip": "ProyectoSimuladorCajero\\Modelos\\CuentaPremium.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-15T16:01:20.039Z"
+              "WhenOpened": "2024-06-15T16:01:20.039Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CuentaBasica.cs",
               "DocumentMoniker": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\CuentaBasica.cs",
               "RelativeDocumentMoniker": "ProyectoSimuladorCajero\\Modelos\\CuentaBasica.cs",
               "ToolTip": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\CuentaBasica.cs",
               "RelativeToolTip": "ProyectoSimuladorCajero\\Modelos\\CuentaBasica.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T16:00:54.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Cuenta.cs",
               "DocumentMoniker": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\Cuenta.cs",
               "RelativeDocumentMoniker": "ProyectoSimuladorCajero\\Modelos\\Cuenta.cs",
               "ToolTip": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Modelos\\Cuenta.cs",
               "RelativeToolTip": "ProyectoSimuladorCajero\\Modelos\\Cuenta.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwDwAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T15:58:42.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Program.cs",
               "RelativeDocumentMoniker": "ProyectoSimuladorCajero\\Program.cs",
               "ToolTip": "C:\\Projects\\Programacion I\\ProyectoSimuladorCajero\\ProyectoSimuladorCajero\\Program.cs",
               "RelativeToolTip": "ProyectoSimuladorCajero\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKIAAAAqAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBAAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T15:55:32.86Z",
               "EditorCaption": ""

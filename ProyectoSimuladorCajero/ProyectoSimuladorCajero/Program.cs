@@ -12,14 +12,18 @@ namespace ProyectoSimuladorCajero
 
         static void Main(string[] args)
         {
+
+             
             List<Cuenta> cuentas = new List<Cuenta>();
             int opcionMenuP = 0;
             int opcionMenuCC = 0;
 
+
+            InicioSesion();
+
             do
             {
-
-                MenuPrincipal();
+                
                 opcionMenuP = Convert.ToInt16(Console.ReadLine());
                 string idCuenta;
                 switch (opcionMenuP)
@@ -165,9 +169,9 @@ namespace ProyectoSimuladorCajero
             Console.WriteLine("");
         }
 
-        private static void MenuUsuarioAdministrador()
+       /* private static void MenuUsuarioAdministrador()
         {
-            Console.WriteLine("Hola" + " Dalvin Soriano, Bienvenido al cajero automático T1474");
+            Console.WriteLine("Hola" + ", Bienvenido al cajero automático T1474");
             Console.WriteLine("1. Crear Usuario");
             Console.WriteLine("2. Dar de baja a un usuario");
             Console.WriteLine("3. Crear cuenta");
@@ -183,6 +187,51 @@ namespace ProyectoSimuladorCajero
             Console.WriteLine("3. Verificar saldo");
             Console.WriteLine("4. Salir");
             Console.Write("\nElija una opción: ");
+        }*/
+
+        private static void InicioSesion()
+        {
+
+            string nicknameAdmin = "dsoriano";
+            string passwordAdmin = "1234";
+            string nicknameCliente = "ihernandez";
+            string passwordCliente = "12345";
+
+
+            Console.Write("Ingrese su usuario: ");
+            string usuario = Console.ReadLine();
+            Console.Write("Ingrese su contrasena: ");
+            string password = Console.ReadLine();
+
+            if (usuario == nicknameAdmin && password == passwordAdmin)
+            {
+                Console.WriteLine("Hola " + nicknameAdmin +", Bienvenido al cajero automático T1474");
+                Console.WriteLine();
+                Console.WriteLine("1. Crear Usuario");
+                Console.WriteLine("2. Dar de baja a un usuario");
+                Console.WriteLine("3. Crear cuenta");
+                Console.WriteLine("4. Salir");
+                Console.Write("\nElija una opción: ");
+                Console.WriteLine();
+            }
+            else if (usuario == nicknameCliente && password == passwordCliente)
+            {
+                Console.WriteLine("Hola " +nicknameCliente+ ", Bienvenido al cajero automático T1474");
+                Console.WriteLine();
+                Console.WriteLine("1. Depositar");
+                Console.WriteLine("2. Retirar");
+                Console.WriteLine("3. Verificar saldo");
+                Console.WriteLine("4. Salir");
+                Console.Write("\nElija una opción: ");
+                Console.WriteLine();
+            }
+            else
+            {
+                Console.WriteLine("Su usuario o contrasena son incorrectos. Intentelo de nuevo");
+            }
+
         }
+
+
     }
 }

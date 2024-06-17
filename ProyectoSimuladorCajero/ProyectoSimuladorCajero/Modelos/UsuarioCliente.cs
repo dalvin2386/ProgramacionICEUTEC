@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace ProyectoSimuladorCajero.Modelos
 {
-    public class UsuarioAdministrador : Usuario
+    public class UsuarioCliente : Usuario
     {
-        public UsuarioAdministrador(string nombreCompleto, string identidad, string numeroTelefono, string correo,
+        public UsuarioCliente(string nombreCompleto, string identidad, string numeroTelefono, string correo,
             string nickname, string password, DateTime fechaNacimiento, DateTime fechaCreacionUsuario)
             : base(nombreCompleto, identidad, numeroTelefono, correo, nickname, password, fechaNacimiento, fechaCreacionUsuario) { }
 
 
         public override string ToString()
         {
-            return "Usuario Administrador" +
+            return "Usuario Cliente" +
                 "\nNombre completo: " + NombreCompleto
                 + "\nIdentidad: " + Identidad
                 + "\nNumero de telefono: " + NumeroTelefono
@@ -24,9 +24,11 @@ namespace ProyectoSimuladorCajero.Modelos
                 + "\nPassword:" + Password
                 + "\nFecha Nacimiento:" + FechaNacimiento
                 + "\nFecha de creaci[on de usuario: " + FechaCreacionUsuario;
-
-
+            
+               
 
         }
+
+
     }
 }

@@ -47,6 +47,8 @@
     <Compile Include="Modelos\CuentaBasica.cs" />
     <Compile Include="Modelos\CuentaPremium.cs" />
     <Compile Include="Modelos\Usuario.cs" />
+    <Compile Include="Modelos\UsuarioAdministrador.cs" />
+    <Compile Include="Modelos\UsuarioCliente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

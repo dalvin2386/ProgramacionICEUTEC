@@ -11,7 +11,7 @@ namespace ProyectoSimuladorCajero.Modelos
 
         public string NombreCompleto {  get; set; }
         public string Identidad { get; set; }
-        public int NumeroTelefono { get; set; }
+        public string NumeroTelefono { get; set; }
         public string Correo { get; set; }
         public string Nickname { get; set; }
         public string Password { get; set; }
@@ -21,7 +21,7 @@ namespace ProyectoSimuladorCajero.Modelos
 
         public Usuario() { }
 
-        public Usuario(string nombreCompleto, string identidad, int numeroTelefono, string nickname, string password, DateTime fechaNacimiento, DateTime fechaCreacionUsuario)
+        public Usuario(string nombreCompleto, string identidad, string numeroTelefono, string nickname, string password, string password1, DateTime fechaNacimiento, DateTime fechaCreacionUsuario)
         {
             NombreCompleto  = nombreCompleto;
             Identidad = identidad;

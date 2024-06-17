@@ -11,36 +11,20 @@ namespace ProyectoSimuladorCajero.Modelos
         public string IdCuenta { get; set; }
         public string Nombre { get; set; }
         public double Balance { get; set; }
+        public DateTime FechaCreacionCuenta { get; set; }
 
-        private double porcentajeInteres;
-
+        
         public Cuenta() { }
 
-        public Cuenta(string idCuenta, string nombre, double balance, double porcentajeInteres)
+        public Cuenta(string idCuenta, string nombre, double balance, DateTime fechaCreacionCuenta)
         {
             IdCuenta = idCuenta;
             Nombre = nombre;
             Balance = balance;
-            PorcentajeInteres = porcentajeInteres;
+            FechaCreacionCuenta = fechaCreacionCuenta;
         }
 
-        public double PorcentajeInteres
-        {
-            get { return this.porcentajeInteres; }
-
-            set
-            {
-                if (value > 0 && value <= 100)
-                {
-                    this.porcentajeInteres = value / 100;
-                }
-                else
-                {
-                    this.porcentajeInteres = 0.10;
-                }
-            }
-        }
-
+       
 
         public void Deposito(double monto)
         {
@@ -57,6 +41,6 @@ namespace ProyectoSimuladorCajero.Modelos
             }
         }
 
-        public abstract double CalcularInteres();
+       
     }
 }

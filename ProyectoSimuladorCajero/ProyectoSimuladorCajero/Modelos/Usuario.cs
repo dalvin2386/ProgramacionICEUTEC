@@ -21,11 +21,12 @@ namespace ProyectoSimuladorCajero.Modelos
 
         public Usuario() { }
 
-        public Usuario(string nombreCompleto, string identidad, string numeroTelefono, string nickname, string password, string password1, DateTime fechaNacimiento, DateTime fechaCreacionUsuario)
+        public Usuario(string nombreCompleto, string identidad, string numeroTelefono,string correo, string nickname, string password1, DateTime fechaNacimiento, DateTime fechaCreacionUsuario)
         {
             NombreCompleto  = nombreCompleto;
             Identidad = identidad;
             NumeroTelefono = numeroTelefono;
+            Correo = correo;
             Nickname = nickname;
             Password = password1;
             FechaNacimiento = fechaNacimiento;

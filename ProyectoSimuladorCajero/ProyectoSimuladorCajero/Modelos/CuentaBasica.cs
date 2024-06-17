@@ -13,13 +13,6 @@ namespace ProyectoSimuladorCajero.Modelos
 
       
 
-        public override string ToString()
-        {
-            return "Cuenta Básica" +
-                "\nId de Cuenta: " + IdCuenta
-                + "\nNombre: " + Nombre
-                + "\nBalance: " + Balance + " Lempiras"                
-                + "\nFecha de cración de cuenta: " + FechaCreacionCuenta;
-        }
+        
     }
 }

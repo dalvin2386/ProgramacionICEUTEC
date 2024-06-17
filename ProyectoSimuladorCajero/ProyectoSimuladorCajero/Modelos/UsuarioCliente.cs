@@ -13,21 +13,7 @@ namespace ProyectoSimuladorCajero.Modelos
             : base(nombreCompleto, identidad, numeroTelefono, correo, nickname, password1, fechaNacimiento, fechaCreacionUsuario) { }
 
 
-        public override string ToString()
-        {
-            return "Usuario Cliente" +
-                "\nNombre completo: " + NombreCompleto
-                + "\nIdentidad: " + Identidad
-                + "\nNumero de telefono: " + NumeroTelefono
-                + "\nCorreo:" + Correo
-                + "\nNickname:" + Nickname
-                + "\nPassword:" + Password
-                + "\nFecha Nacimiento:" + FechaNacimiento
-                + "\nFecha de creaci[on de usuario: " + FechaCreacionUsuario;
-            
-               
-
-        }
+       
 
 
     }

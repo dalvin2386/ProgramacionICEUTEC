@@ -36,8 +36,9 @@ namespace ProyectoSimuladorCajero
                 Console.WriteLine();
                 int opcionMenuP = 0;
                 int opcionMenuCC = 0;
-                
-                
+                int opcionMenuCU = 0;
+
+
 
 
                 do//Genera inicio de sesion y el menu que corresponde segun el usuario
@@ -54,6 +55,9 @@ namespace ProyectoSimuladorCajero
                             Console.WriteLine("*************** CREAR USUARIO ***************");
                             Console.ForegroundColor = ConsoleColor.Gray;
                             Console.WriteLine();
+                            MenuCrearUsuario();
+                            Console.WriteLine();
+                            opcionMenuCU = Convert.ToInt16(Console.ReadLine());
                             Console.Write("Nombre completo: ");
                             string nombreCompleto = Console.ReadLine();
                             Console.Write("Identidad: ");
@@ -63,7 +67,7 @@ namespace ProyectoSimuladorCajero
                             Console.Write("Correo: ");
                             string correo = Console.ReadLine();
                             Console.Write("Usuario: ");
-                            string user = Console.ReadLine();
+                            string nickname = Console.ReadLine();
                             Console.Write("Contraseña: ");
                             string contrasena = Console.ReadLine();
                             Console.Write("Fecha de nacimiento: ");
@@ -72,12 +76,28 @@ namespace ProyectoSimuladorCajero
                             DateTime fechaCreacion = Convert.ToDateTime(Console.ReadLine());
                             Console.WriteLine();
 
-                            Usuario administrador = new UsuarioAdministrador(nombreCompleto, identidad, numeroTelefono, correo, user, contrasena, fechaNacimiento, fechaCreacion);
-                            usuarios.Add(administrador);
-                            Console.WriteLine("Cuenta de usuario creada satisfactoriamente...");
+                            if (opcionMenuCU == 1)
+                            {
+                                UsuarioAdministrador administrador = new UsuarioAdministrador(nombreCompleto, identidad, numeroTelefono, correo, nickname, contrasena, fechaNacimiento, fechaCreacion);
+                                usuarios.Add(administrador);
+                                Console.WriteLine("Cuenta de usuario creada satisfactoriamente...");
+                                Console.WriteLine();
 
-                            
+                                break;
+                            }
+                            else if (opcionMenuCU == 2)
+                            {
+                                UsuarioCliente cliente = new UsuarioCliente(nombreCompleto, identidad, numeroTelefono, correo, nickname, contrasena, fechaNacimiento, fechaCreacion);
+                                usuarios.Add(cliente);
+                                Console.WriteLine("Cuenta de usuario creada satisfactoriamente...");
+                                Console.WriteLine();
 
+                                break;
+                            }                            
+                            else
+                            {
+                                Console.WriteLine("Opción Invalida..");
+                            }
                             break;
 
                         case 2: // Dar de baja a un usuario
@@ -87,8 +107,8 @@ namespace ProyectoSimuladorCajero
                             Console.ForegroundColor = ConsoleColor.Gray;
                             Console.WriteLine();
                             Console.Write("Ingrese su nickname: ");
-                            user = Console.ReadLine();
-                            Usuario buscarUsuarioExistente = usuarios.Find(c => c.Nickname == user);
+                            nickname = Console.ReadLine();
+                            Usuario buscarUsuarioExistente = usuarios.Find(c => c.Nickname == nickname);
                             if (buscarUsuarioExistente != null)
                             {
                                 usuarios.Remove(buscarUsuarioExistente);
@@ -101,6 +121,7 @@ namespace ProyectoSimuladorCajero
                                 Console.WriteLine();
                             }
                             break;
+                    
                         case 3: // Crear cuenta
                             Console.WriteLine();
                             Console.ForegroundColor = ConsoleColor.Green;
@@ -109,6 +130,7 @@ namespace ProyectoSimuladorCajero
 
                             Console.WriteLine();
                             MenuCrearCuentaCliente();
+                            Console.WriteLine();
                             opcionMenuCC = Convert.ToInt16(Console.ReadLine());
                             Console.Write("Ingrese Numero de Cuenta: ");
                             idCuenta = Console.ReadLine();
@@ -123,6 +145,7 @@ namespace ProyectoSimuladorCajero
                                 CuentaBasica basica = new CuentaBasica(idCuenta, nombre, balance, fechaCrecionCuenta);
                                 cuentas.Add(basica);
                                 Console.WriteLine("Cuenta creada satisfactoriamente...");
+                                Console.WriteLine();
                                 break;
                             }
                             else if (opcionMenuCC == 2)
@@ -130,14 +153,12 @@ namespace ProyectoSimuladorCajero
                                 CuentaPremium premium = new CuentaPremium(idCuenta, nombre, balance, fechaCrecionCuenta);
                                 cuentas.Add(premium);
                                 Console.WriteLine("Cuenta creada satisfactoriamente...");
-                            }
-                            else if (opcionMenuCC == 3)
-                            {
-                                Console.WriteLine("Gracias por crear su cuenta con nosotros..");
-                            }
+                                Console.WriteLine();
+                            }                          
                             else
                             {
                                 Console.WriteLine("Opción Invalida..");
+                                Console.WriteLine();
                             }
 
 
@@ -147,7 +168,7 @@ namespace ProyectoSimuladorCajero
                             Console.ForegroundColor = ConsoleColor.Red;
                             Console.WriteLine("||||||||||||||| DAR DE BAJA A UNA CUENTA BANCARIA |||||||||||||||");
                             Console.ForegroundColor = ConsoleColor.Gray;
-
+                            Console.WriteLine();
                             Console.Write("Ingrese Numero de Cuenta: ");
                             idCuenta = Console.ReadLine();
                             Cuenta buscarCuentaExistente = cuentas.Find(c => c.IdCuenta == idCuenta);
@@ -155,16 +176,19 @@ namespace ProyectoSimuladorCajero
                             {
                                 cuentas.Remove(buscarCuentaExistente);
                                 Console.Write("Cuenta eliminada con exito..");
+                                Console.WriteLine();
                             }
                             else
                             {
                                 Console.Write("Lo sentimos, no hemos encontrado su cuenta..");
+                                Console.WriteLine();
                             }
 
                             break;
 
                         default:
                             Console.WriteLine("Opción no válida");
+                            Console.WriteLine();
                             break;
                     }
 
@@ -199,7 +223,9 @@ namespace ProyectoSimuladorCajero
                                 if (elemento.IdCuenta.Equals(idCuenta))
                                 {
                                     elemento.Deposito(deposito);
+                                    Console.WriteLine();
                                     Console.WriteLine("Deposito exitoso...");
+                                    Console.WriteLine();
                                 }
                             }
 
@@ -217,7 +243,9 @@ namespace ProyectoSimuladorCajero
                                 if (elemento.IdCuenta.Equals(idCuenta))
                                 {
                                     elemento.Retiro(retiro);
+                                    Console.WriteLine();
                                     Console.WriteLine("Retiro exitoso...");
+                                    Console.WriteLine();
                                 }
                             }
                             break;
@@ -230,7 +258,7 @@ namespace ProyectoSimuladorCajero
 
                     }
 
-                } while (opcionMenuC != 4);
+                } while (opcionMenuC != 0);
 
 
             }
@@ -243,6 +271,7 @@ namespace ProyectoSimuladorCajero
       
         private static void MenuCrearCuentaCliente()
         {
+            Console.WriteLine();
             Console.WriteLine("1. Cuenta Básica");
             Console.WriteLine("2. Cuenta Premium");
             Console.WriteLine("0. Salir");
@@ -251,27 +280,42 @@ namespace ProyectoSimuladorCajero
             
         }
 
+        private static void MenuCrearUsuario()
+        {
+            Console.WriteLine();
+            Console.WriteLine("1. Usuario Administrador");
+            Console.WriteLine("2. Usuario Cliente");
+            Console.WriteLine("0. Salir");
+            Console.Write("\nElija una de las opciones: ");
+            Console.WriteLine("");
+
+        }
+
         private static void MenuUsuarioAdministrador()
         {
             Console.WriteLine("Hola" + ", Bienvenido al cajero automático T1474");
+            Console.WriteLine();
             Console.WriteLine("1. Crear Usuario");
             Console.WriteLine("2. Dar de baja a un usuario");
             Console.WriteLine("3. Crear cuenta");
             Console.WriteLine("4. Dar de baja a una cuenta");
             Console.WriteLine("0. Salir");
             Console.Write("\nElija una opción: ");
-            
+            Console.WriteLine();
+
         }
 
         private static void MenuUsuarioCliente()
         {
             Console.WriteLine("Hola" + " , Bienvenido al cajero automático T1474");
+            Console.WriteLine();
             Console.WriteLine("1. Depositar");
             Console.WriteLine("2. Retirar");
             Console.WriteLine("3. Verificar saldo");
             Console.WriteLine("0. Salir");
             Console.Write("\nElija una opción: ");
-            
+            Console.WriteLine();
+
         }
 
        

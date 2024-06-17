@@ -25,6 +25,10 @@ namespace ProyectoSimuladorCajero.Modelos
         }
 
        
+        public void VerificarSaldo()
+        {
+       Console.WriteLine("El saldo actual de la cuenta es: L. " + Balance);
+        }
 
         public void Deposito(double monto)
         {

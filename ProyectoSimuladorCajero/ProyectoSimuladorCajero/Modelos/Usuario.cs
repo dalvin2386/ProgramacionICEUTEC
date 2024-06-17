@@ -27,7 +27,7 @@ namespace ProyectoSimuladorCajero.Modelos
             Identidad = identidad;
             NumeroTelefono = numeroTelefono;
             Nickname = nickname;
-            Password = password;
+            Password = password1;
             FechaNacimiento = fechaNacimiento;
             FechaCreacionUsuario = fechaCreacionUsuario;
         }
